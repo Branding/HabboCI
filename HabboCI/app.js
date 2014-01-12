@@ -15,7 +15,7 @@ function ThreadsModule (config, server){
 	LoggerHandler('Server start: environment is: ' + config['environment'] + ' Listening connection on the port: ' + config['local']['port']);
 	LoggerHandler('Operating system: ' + System.type() + ' platform: ' + System.platform() + '\n');
 
-	var SocketIO = Sockets.listen(server, { origins: 'http://' + config['local']['host'] + ':*' });
+	var SocketIO = Sockets.listen(server);
 
 	setTimeout(function(){
 		var  Io = require('./io.js')(SocketIO);
