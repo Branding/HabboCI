@@ -1,0 +1,11 @@
+{
+  "name": "Theards",
+  "description": "This server is created across node.js and with the library sockets.io for the game exclusive Mundoci",
+  "private": true,
+  "version": "0.0.1",
+  "author": "MettoK © 2013 - 2014",
+  "dependencies": {
+    "socket.io": "~0.9.16",
+    "express": "~3.4.0",
+  },
+}

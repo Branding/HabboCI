@@ -1,0 +1,17 @@
+{
+	"Project": "MyGame",
+	"environment": "dev",
+
+	"local": {
+		"host": "localhost",
+		"port": 3002,
+		"limit": 1
+	},	
+
+	"database": {
+        "host": "localhost",
+        "port": 3306,
+		"user": "root",
+        "password": "12341"
+	}
+}
